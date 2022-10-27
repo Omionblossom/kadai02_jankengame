@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+
+     <!--   jQuery・bootstrapライブラリ読み込み -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <!-- /jQuery・bootstrapライブラリ読み込み
+
+    /公式からダウンロードしてね -->
+    <link rel="stylesheet" href="https://appsol-one.com/custom/941_freezeframe/freezeframe_styles.css">
+    <script type="text/javascript" src="https://appsol-one.com/custom/941_freezeframe/freezeframe.pkgd.js"></script>
+     <!-- /公式からダウンロードしてね -->
+</head>
+
+<body>
+    <!-- <div class="mainvisual">
+        
+        <img class="dinosaur" src="js/images/Jungle.jpg" />
+        <div class="mainmessage">
+          <h1 class="WELCOME1">WELCOME</h1>
+          <img src="js/images/logo3.png" alt="Jurrasic park" class="logo" height="220">
+          <p class="WELCOME">CRATECEOUS PARK JUNGLE</p>
+        </div>
+    </div> -->
+
+    <header class="full">
+      <h1 class="h1">CRATECEOUS JUNGLE CHALLENGE</h1>
+    </header>
+
+    <Section class="battle">
+      <h1 class="message">白亜紀 恐竜じゃんけん：きみはどの恐竜で戦う？</h1>
+      <h2 class="round">Round</h2><h2 class="disp_count">0</h2>
+          <!-- <input type="button" value="カウントアップ" id="btn_count_up" />
+          <input type="button" value="リセット" id="btn_reset" /> -->
+
+      <h1 class="a">♠＿＿ティラノサウルス_T-Rex</h1>
+      
+      <h1 class="b">♦＿＿トリケラトプス_Triceratops</h1>
+
+      <h1 class="c">♣＿＿あんきろさうるす_Ankyrosaurus</h1>
+
+      <h1 class="d">♥＿＿ひみつ_Mysterious</h1>
+
+      <div class="cardsposition">
+        <p>カードを選んでクリックしてね</p>
+        <ul class="cards">
+          <li class="a"><img src="js/images/s-l400TREX.jpg" alt="Trex" height="240"></li>
+          <li class="b"><img src="js/images/Japanese_4th_Edition_Triceratops.webp" alt="Tricera" height="240"></li>
+          <li class="c"><img src="js/images/Ankylosaurus_Alpha_TCG_Card.webp" alt="Ankylo" height="240"></li>
+        </ul>     
+      </div>
+
+      <!-- <div class="imagebox"> // 画像が並ばなかった時のデバグ用
+        <p><img src="js/images/s-l400TREX.jpg" alt="Trex" height="220"></p>
+        <p><img src="js/images/Japanese_4th_Edition_Triceratops.webp" alt="Tricera" height="220"></p>
+        <p><img src="js/images/Ankylosaurus_Alpha_TCG_Card.webp" alt="Ankylo" height="220"></p>
+      </div> -->
+
+      <br>
+
+      <div class="opponent">
+        <h1 class="e">相手のカード:</h1>
+        <h1 class="enemy"></h1>
+        <h1 class="result">戦いの結果はいかに？！</h1>
+
+        <h1 class="hidden">_____</h1>
+      </div>  
+
+    </Section>
+    <!-- gif -->
+    <!-- <img src="js/images/logo3.png" alt="Jurrasic park" class="src" height="40"> -->
+
+    <!-- <img id="image_place" src="js/images/Jungle.jpg">
+    <script type="text/javascript">
+    // img要素を取得する
+    let img = document.getElementById("image_place");
+    // 表示する画像番号
+    let idx = 1;
+
+    // 画像を切り替える関数
+    function changeImage() {
+      idx++;
+      if (idx > 3) {
+        idx = 1;
+      }
+
+      // img要素のsrcに画像ファイル名を設定する
+      img.src = "image" + idx + ".jpg";
+    }
+  </script> -->
+
+    <!-- 必ずjqueryが先-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="js/test.js"></script>
+</body>
+
+</html>

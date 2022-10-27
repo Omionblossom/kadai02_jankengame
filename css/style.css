@@ -1,0 +1,148 @@
+/* ここから下に記載していく */
+body {
+    background-color:black;
+    /* background-color: black url( bg.png ) no-repeat 0% 50% fixed / cover */
+    /* background-image:  */
+}
+
+main {
+    background-color: black;
+    width:1200px;
+}
+
+.mainvisual {
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+
+    /* align-items: center; */
+}
+
+/* .dinosaur {
+    position: absolute; 
+    width: 1200px;
+    min-height: 100vh;
+} */
+
+/* .src {
+    position: absolute;
+    width: 30px; 
+    height: auto    ; 
+} */
+
+.mainvisual img {
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    /* -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); */
+    /* margin:0;
+    padding:0; */
+    /* color: rgba(255, 255, 255, 0.6);
+    font-size: 80px; */
+    }
+
+.mainvisual h1 {
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 20%;
+}
+
+.mainmessage {
+    position: absolute;
+    color: white; 
+    width: 120px;
+    height: auto; 
+}
+
+.message {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mainvisual div p { 
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 30%;
+}
+
+.mainvisual ul {
+    position: absolute;
+    top: 10%;
+    right: 15%;
+}
+
+.WELCOME1 {
+    position:relative;
+    padding-top: 0%;
+    /* padding-left:50%; */
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.WELCOME {
+    font-size: 60px;
+    width: 400px;
+
+}
+
+.cards {
+    position:absolute;
+    display: flex;
+    height: 140px;
+    width: 180px;
+    margin-top:0%;
+    margin-right:  5px;
+}
+
+/* (悩み) カードの位置がうまく定まらない */
+.cardsposition {
+    position: absolute;
+    top: 125%;  
+    right: 25%;
+}
+
+.d {
+    color: rgba(175, 175, 175, 0.13);
+}
+
+/* .imagebox {
+    display: flex;
+}
+
+.imagebox p {
+    width: 100%; 
+} */
+
+.full {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3ccc5ea4-f873-47ff-b0d9-8149eece0ed7/d2cm6go-e6301c00-ee63-45e4-a122-6b82fc066143.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNjY2M1ZWE0LWY4NzMtNDdmZi1iMGQ5LTgxNDllZWNlMGVkN1wvZDJjbTZnby1lNjMwMWMwMC1lZTYzLTQ1ZTQtYTEyMi02YjgyZmMwNjYxNDMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.HK2XEmr9W0VGwV_PBRC3TM5rdJqsGkkEmqRteIwRMuo)
+      center / cover;
+  }
+  
+  .h1 {
+    margin: 0;
+    position: absolute;
+    top: calc(50% - 0.5em);
+    width: 100%;
+    text-align: center;
+    line-height: 1;
+    font-size: 18vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 5px 5px 0 #fff;
+  }
+
+  .battle {
+    margin-top: 120px;
+  }
+
+.opponent {
+    text-align: center;
+    background-color: bisque;
+    height: fit-content;
+}
